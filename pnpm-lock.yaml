@@ -199,16 +199,16 @@ importers:
     devDependencies:
       '@shopify/shopify-api':
         specifier: ^11.9.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
 
   packages/apps/session-storage/shopify-app-session-storage-drizzle:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -251,10 +251,10 @@ importers:
         version: 3.731.1(@aws-sdk/client-dynamodb@3.731.1)
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
     devDependencies:
       '@shopify/shopify-app-session-storage-test-utils':
         specifier: ^3.0.13
@@ -264,10 +264,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       semver:
         specifier: ^7.7.0
         version: 7.7.0
@@ -279,17 +279,17 @@ importers:
         specifier: ^3.0.13
         version: link:../shopify-app-session-storage-test-utils
       miniflare:
-        specifier: ^3.20250214.1
-        version: 3.20250214.1
+        specifier: ^4.20250310.0
+        version: 4.20250310.0
 
   packages/apps/session-storage/shopify-app-session-storage-memory:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
     devDependencies:
       '@shopify/shopify-app-session-storage-test-utils':
         specifier: ^3.0.13
@@ -299,10 +299,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       mongodb:
         specifier: ^6.13.0
         version: 6.13.0(socks@2.8.3)
@@ -315,10 +315,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       mysql2:
         specifier: ^3.12.0
         version: 3.12.0
@@ -331,10 +331,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       pg:
         specifier: ^8.12.0
         version: 8.13.1
@@ -353,10 +353,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
     devDependencies:
       '@prisma/client':
         specifier: ^6.3.1
@@ -372,10 +372,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       redis:
         specifier: ^4.6.14
         version: 4.7.0
@@ -388,10 +388,10 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.0.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.0
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       sqlite3:
         specifier: ^5.1.7
         version: 5.1.7
@@ -407,10 +407,10 @@ importers:
     devDependencies:
       '@shopify/shopify-api':
         specifier: ^11.9.0
-        version: link:../../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.13
-        version: link:../shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
 
   packages/apps/shopify-api:
     dependencies:
@@ -476,8 +476,8 @@ importers:
         specifier: ^2.14.4
         version: 2.14.4(jest@29.7.0(@types/node@22.13.5)(ts-node@10.9.2(@swc/core@1.10.15)(@types/node@22.13.5)(typescript@5.7.3)))
       miniflare:
-        specifier: ^3.20250214.1
-        version: 3.20250214.1
+        specifier: ^4.20250310.0
+        version: 4.20250310.0
       rollup:
         specifier: ^4.34.6
         version: 4.34.6
@@ -492,13 +492,13 @@ importers:
     dependencies:
       '@shopify/shopify-api':
         specifier: ^11.9.0
-        version: link:../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.13
-        version: link:../session-storage/shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^4.0.13
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 4.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))(@shopify/shopify-app-session-storage@3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13)))
       cookie-parser:
         specifier: ^1.4.7
         version: 1.4.7
@@ -538,10 +538,10 @@ importers:
         version: link:../../api-clients/admin-api-client
       '@shopify/shopify-api':
         specifier: ^11.9.0
-        version: link:../shopify-api
+        version: 11.10.0(encoding@0.1.13)
       '@shopify/shopify-app-session-storage':
         specifier: ^3.0.13
-        version: link:../session-storage/shopify-app-session-storage
+        version: 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
       '@shopify/storefront-api-client':
         specifier: ^1.0.5
         version: link:../../api-clients/storefront-api-client
@@ -575,7 +575,7 @@ importers:
         version: 6.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@shopify/shopify-app-session-storage-memory':
         specifier: ^4.0.13
-        version: link:../session-storage/shopify-app-session-storage-memory
+        version: 4.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))(@shopify/shopify-app-session-storage@3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13)))
       '@testing-library/jest-dom':
         specifier: ^6.6.3
         version: 6.6.3
@@ -1458,6 +1458,10 @@ packages:
     resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/runtime@7.26.10':
+    resolution: {integrity: sha512-2WJMeRQPHKSPemqk/awGrAiuFfzBmOIPXKizAsVhWH9YJqLZ0H+HS4c8loHGgW6utJ3E/ejXQUsiGaQy2NZ9Fw==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/runtime@7.26.7':
     resolution: {integrity: sha512-AOPI3D+a8dXnja+iwsUqGRjr1BbZIe771sXdapOtYI531gSqpi92vXivKcq2asu/DFpdl1ceFAKZyRzK2PCVcQ==}
     engines: {node: '>=6.9.0'}
@@ -1554,8 +1558,8 @@ packages:
     cpu: [x64]
     os: [darwin]
 
-  '@cloudflare/workerd-darwin-64@1.20250214.0':
-    resolution: {integrity: sha512-cDvvedWDc5zrgDnuXe2qYcz/TwBvzmweO55C7XpPuAWJ9Oqxv81PkdekYxD8mH989aQ/GI5YD0Fe6fDYlM+T3Q==}
+  '@cloudflare/workerd-darwin-64@1.20250310.0':
+    resolution: {integrity: sha512-LkLJO6F8lRNaCbK5sQCITi66SyCirDpffRuI5/5iILDJWQU4KVvAOKPvHrd4E5h/WDm9FGd22zMJwky7SxaNjg==}
     engines: {node: '>=16'}
     cpu: [x64]
     os: [darwin]
@@ -1566,8 +1570,8 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
-  '@cloudflare/workerd-darwin-arm64@1.20250214.0':
-    resolution: {integrity: sha512-NytCvRveVzu0mRKo+tvZo3d/gCUway3B2ZVqSi/TS6NXDGBYIJo7g6s3BnTLS74kgyzeDOjhu9j/RBJBS809qw==}
+  '@cloudflare/workerd-darwin-arm64@1.20250310.0':
+    resolution: {integrity: sha512-WythDJQbsU3Ii1hhA7pJZLBQlHezeYWAnaMnv3gS2Exj45oF8G4chFvrO7zCzjlcJXwSeBTtQRJqxw9AiUDhyA==}
     engines: {node: '>=16'}
     cpu: [arm64]
     os: [darwin]
@@ -1578,8 +1582,8 @@ packages:
     cpu: [x64]
     os: [linux]
 
-  '@cloudflare/workerd-linux-64@1.20250214.0':
-    resolution: {integrity: sha512-pQ7+aHNHj8SiYEs4d/6cNoimE5xGeCMfgU1yfDFtA9YGN9Aj2BITZgOWPec+HW7ZkOy9oWlNrO6EvVjGgB4tbQ==}
+  '@cloudflare/workerd-linux-64@1.20250310.0':
+    resolution: {integrity: sha512-LbP769tT4/5QBHSj4lCt99QIKTi6cU+wYhLfF7rEtYHBnZS2+nIw9xttAzxeERx/aFrU+mxLcYPFV8fUeVxGng==}
     engines: {node: '>=16'}
     cpu: [x64]
     os: [linux]
@@ -1590,8 +1594,8 @@ packages:
     cpu: [arm64]
     os: [linux]
 
-  '@cloudflare/workerd-linux-arm64@1.20250214.0':
-    resolution: {integrity: sha512-Vhlfah6Yd9ny1npNQjNgElLIjR6OFdEbuR3LCfbLDCwzWEBFhIf7yC+Tpp/a0Hq7kLz3sLdktaP7xl3PJhyOjA==}
+  '@cloudflare/workerd-linux-arm64@1.20250310.0':
+    resolution: {integrity: sha512-FzWeKM6id20EMZACaDg0Kkvg1C4lvXZgLBXVI6h6xaXTNFReoyEp4v4eMrRTuja5ec5k+m5iGKjP4/bMWJp9ew==}
     engines: {node: '>=16'}
     cpu: [arm64]
     os: [linux]
@@ -1602,8 +1606,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workerd-windows-64@1.20250214.0':
-    resolution: {integrity: sha512-GMwMyFbkjBKjYJoKDhGX8nuL4Gqe3IbVnVWf2Q6086CValyIknupk5J6uQWGw2EBU3RGO3x4trDXT5WphQJZDQ==}
+  '@cloudflare/workerd-windows-64@1.20250310.0':
+    resolution: {integrity: sha512-04OgaDzm8/8nkjF3tovB+WywZLjSdAHCQT2omXKCwH3EDd1kpd8vvzE1pErtdIyKCOf9/sArY4BhPdxRj7ijlg==}
     engines: {node: '>=16'}
     cpu: [x64]
     os: [win32]
@@ -2615,66 +2619,82 @@ packages:
   '@miniflare/cache@2.14.4':
     resolution: {integrity: sha512-ayzdjhcj+4mjydbNK7ZGDpIXNliDbQY4GPcY2KrYw0v1OSUdj5kZUkygD09fqoGRfAks0d91VelkyRsAXX8FQA==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/core@2.14.4':
     resolution: {integrity: sha512-FMmZcC1f54YpF4pDWPtdQPIO8NXfgUxCoR9uyrhxKJdZu7M6n8QKopPVNuaxR40jcsdxb7yKoQoFWnHfzJD9GQ==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/d1@2.14.4':
     resolution: {integrity: sha512-pMBVq9XWxTDdm+RRCkfXZP+bREjPg1JC8s8C0JTovA9OGmLQXqGTnFxIaS9vf1d8k3uSUGhDzPTzHr0/AUW1gA==}
     engines: {node: '>=16.7'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/durable-objects@2.14.4':
     resolution: {integrity: sha512-+JrmHP6gHHrjxV8S3axVw5lGHLgqmAGdcO/1HJUPswAyJEd3Ah2YnKhpo+bNmV4RKJCtEq9A2hbtVjBTD2YzwA==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/html-rewriter@2.14.4':
     resolution: {integrity: sha512-GB/vZn7oLbnhw+815SGF+HU5EZqSxbhIa3mu2L5MzZ2q5VOD5NHC833qG8c2GzDPhIaZ99ITY+ZJmbR4d+4aNQ==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/kv@2.14.4':
     resolution: {integrity: sha512-QlERH0Z+klwLg0xw+/gm2yC34Nnr/I0GcQ+ASYqXeIXBwjqOtMBa3YVQnocaD+BPy/6TUtSpOAShHsEj76R2uw==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/queues@2.14.4':
     resolution: {integrity: sha512-aXQ5Ik8Iq1KGMBzGenmd6Js/jJgqyYvjom95/N9GptCGpiVWE5F0XqC1SL5rCwURbHN+aWY191o8XOFyY2nCUA==}
     engines: {node: '>=16.7'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/r2@2.14.4':
     resolution: {integrity: sha512-4ctiZWh7Ty7LB3brUjmbRiGMqwyDZgABYaczDtUidblo2DxX4JZPnJ/ZAyxMPNJif32kOJhcg6arC2hEthR9Sw==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/runner-vm@2.14.4':
     resolution: {integrity: sha512-Nog0bB9SVhPbZAkTWfO4lpLAUsBXKEjlb4y+y66FJw77mPlmPlVdpjElCvmf8T3VN/pqh83kvELGM+/fucMf4g==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/shared-test-environment@2.14.4':
     resolution: {integrity: sha512-FdU2/8wEd00vIu+MfofLiHcfZWz+uCbE2VTL85KpyYfBsNGAbgRtzFMpOXdoXLqQfRu6MBiRwWpb2FbMrBzi7g==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/shared@2.14.4':
     resolution: {integrity: sha512-upl4RSB3hyCnITOFmRZjJj4A72GmkVrtfZTilkdq5Qe5TTlzsjVeDJp7AuNUM9bM8vswRo+N5jOiot6O4PVwwQ==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/sites@2.14.4':
     resolution: {integrity: sha512-O5npWopi+fw9W9Ki0gy99nuBbgDva/iXy8PDC4dAXDB/pz45nISDqldabk0rL2t4W2+lY6LXKzdOw+qJO1GQTA==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/storage-file@2.14.4':
     resolution: {integrity: sha512-JxcmX0hXf4cB0cC9+s6ZsgYCq+rpyUKRPCGzaFwymWWplrO3EjPVxKCcMxG44jsdgsII6EZihYUN2J14wwCT7A==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/storage-memory@2.14.4':
     resolution: {integrity: sha512-9jB5BqNkMZ3SFjbPFeiVkLi1BuSahMhc/W1Y9H0W89qFDrrD+z7EgRgDtHTG1ZRyi9gIlNtt9qhkO1B6W2qb2A==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/watcher@2.14.4':
     resolution: {integrity: sha512-PYn05ET2USfBAeXF6NZfWl0O32KVyE8ncQ/ngysrh3hoIV7l3qGGH7ubeFx+D8VWQ682qYhwGygUzQv2j1tGGg==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@miniflare/web-sockets@2.14.4':
     resolution: {integrity: sha512-stTxvLdJ2IcGOs76AnvGYAzGvx8JvQPRxC5DW0P5zdAAnhL33noqb5LKdPt3P37BKp9FzBKZHuihQI9oVqwm0g==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
 
   '@mongodb-js/saslprep@1.1.9':
     resolution: {integrity: sha512-tVkljjeEaAhCqTzajSdgbQ6gE6f3oneVwa3iXR6csiEwXXOFsiC6Uh9iAjAhXPtqa/XMDHWjjeNH/77m/Yq2dw==}
@@ -3091,6 +3111,9 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
+  '@shopify/admin-api-client@1.0.6':
+    resolution: {integrity: sha512-0v9HUaBMf78OJYoKrMmLTHuEK2WP3k7S/GCvVHo9NeO06ZaTWyEo42ZIOJeT8trICC9clqasZhp0TUID1hkGXQ==}
+
   '@shopify/babel-preset@25.0.0':
     resolution: {integrity: sha512-2eVmLPGMLEdZ2u93pikVcwAf+XTpzYMtphFwuE1ZwlxBSQZg2H6OWbt/rnS79fAiJUmS7DSUel+ZlBzdSlg6Bg==}
 
@@ -3102,6 +3125,9 @@ packages:
   '@shopify/generate-docs@0.16.4':
     resolution: {integrity: sha512-lYtnB2gPPSBf73YvbrNM9u6p1cm/qbg1uEqkMW9sG4/dORb5tBPDDC/KkckaCaMF7soHg9PsinNXHAa0/Hlf4g==}
     hasBin: true
+
+  '@shopify/graphql-client@1.3.0':
+    resolution: {integrity: sha512-iyr1FqTsh0bkeZm+IF1uPl2Z6qAhRPcr199WIA9lOyqacKiy0+c+Rilo4WG4dS8OSurZDXPjh7LB0oD5m4RvGQ==}
 
   '@shopify/graphql-codegen@0.1.0':
     resolution: {integrity: sha512-G3sSesLj7Czt/J2Bj+XlQ8u4pkfQEt32hsjoS3UGZlf1eAiVw0aBBddp+NI5HqBAi0gM/f7GLRAhG3kktPhZmA==}
@@ -3144,6 +3170,23 @@ packages:
     peerDependencies:
       react: '>=18.0.0 <19.0.0'
       react-dom: '>=16.8.0 <19.0.0'
+
+  '@shopify/shopify-api@11.10.0':
+    resolution: {integrity: sha512-IeAmZBLJkMuZR6ukdJrRhMoF7MpHKBfCvGsTUFgiWFsgvXlz276OSX/VpGb53yLF0f8wI/g62D46DAYggowyhg==}
+
+  '@shopify/shopify-app-session-storage-memory@4.0.14':
+    resolution: {integrity: sha512-EVmZUbcncKd09I+eJqiXvnckQdgMB8sFMf+BEq3Iy9w+2ZVgsx9b3mh8yL8YRP+FyTN2GRhBhN3vWbx8edbwzg==}
+    peerDependencies:
+      '@shopify/shopify-api': ^11.0.0
+      '@shopify/shopify-app-session-storage': ^3.0.0
+
+  '@shopify/shopify-app-session-storage@3.0.14':
+    resolution: {integrity: sha512-beCBGUj2tLzcsPYWnShBrse/Gt9LqpjCf8vRBnAdLTsQTxxf5Rbomf4szC0LH/uaCyh8ECXbz/pTN1zZCMZkIg==}
+    peerDependencies:
+      '@shopify/shopify-api': ^11.0.0
+
+  '@shopify/storefront-api-client@1.0.5':
+    resolution: {integrity: sha512-mn1e9+QuFabdYHRPCoGAHtFkaw5D/eOeeTygiUBVMWLNlAumfZ859kcgHJZncI24eTsXVQKbfAKPFWBuUeMkXA==}
 
   '@shopify/typescript-configs@5.1.0':
     resolution: {integrity: sha512-RywGBTR+nQyJLxcrUcihPkHPIG3pIQI6i0YwMrM5rs9nWJ0+9A5HKEcboyGPLH+8V08EXGfFQ6H820O9ajyk4A==}
@@ -3787,6 +3830,11 @@ packages:
 
   acorn@8.14.0:
     resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.14.1:
+    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -5637,6 +5685,10 @@ packages:
     resolution: {integrity: sha512-0q3naRVpENL0ReKHeNcwn/G7BDynp0DqZUckKyFtM9+hmpnPqgm8+8wbjiVZ0XNhq1wPQV28/Pb8Snh5adeUHA==}
     engines: {node: '>=18'}
 
+  isbot@5.1.23:
+    resolution: {integrity: sha512-ie3ehy2iXdkuzaZx32SoKb9b8l9Cm8cqQ1lJjQXnq8GRTrk/Jx7IUDcB4mhlw6H3gWaMqGYoWeV0lPv1P/20Ig==}
+    engines: {node: '>=18'}
+
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
@@ -5740,6 +5792,7 @@ packages:
   jest-environment-miniflare@2.14.4:
     resolution: {integrity: sha512-r5OtP6seAotjWmB10jNfr6UUf9n55Bsr4DHLkXX+7bq1bguTI3m+eNIY+rPE4/fqUoCSEMKAYhLi+JauGGsboA==}
     engines: {node: '>=16.13'}
+    deprecated: Miniflare v2 is no longer supported. Please upgrade to Miniflare v4
     peerDependencies:
       jest: ^29.7.0
 
@@ -6184,9 +6237,9 @@ packages:
     engines: {node: '>=16.13'}
     hasBin: true
 
-  miniflare@3.20250214.1:
-    resolution: {integrity: sha512-NE66QV+2n9ZndaP5jgPlcVref3Arvizb+l2QqhgeXtKM5Orhi8UU2mijoiN3mHEUexKaBES2S1VubT4LDPqkxQ==}
-    engines: {node: '>=16.13'}
+  miniflare@4.20250310.0:
+    resolution: {integrity: sha512-WL4hKQIfXyTxKyQzxJyyy/v+OYSiF51s3Qe1Q4W4MjHJbtiN8Kg7+oeTdHYgqYehanN2zYoSKJ/xooIy8q5+XA==}
+    engines: {node: '>=18.0.0'}
     hasBin: true
 
   minimatch@10.0.1:
@@ -7709,6 +7762,10 @@ packages:
     resolution: {integrity: sha512-508e6IcKLrhxKdBbcA2b4KQZlLVp2+J5UwQ6F7Drckkc5N9ZJwFa4TgWtsww9UG8fGHbm6gbV19TdM5pQ4GaIA==}
     hasBin: true
 
+  uuid@11.1.0:
+    resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
+    hasBin: true
+
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
@@ -7816,8 +7873,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  workerd@1.20250214.0:
-    resolution: {integrity: sha512-QWcqXZLiMpV12wiaVnb3nLmfs/g4ZsFQq2mX85z546r3AX4CTIkXl0VP50W3CwqLADej3PGYiRDOTelDOwVG1g==}
+  workerd@1.20250310.0:
+    resolution: {integrity: sha512-bAaZ9Bmts3mArbIrXYAtr+ZRsAJAAUEsCtvwfBavIYXaZ5sgdEOJBEiBbvsHp6CsVObegOM85tIWpYLpbTxQrQ==}
     engines: {node: '>=16'}
     hasBin: true
 
@@ -9428,6 +9485,10 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
+  '@babel/runtime@7.26.10':
+    dependencies:
+      regenerator-runtime: 0.14.1
+
   '@babel/runtime@7.26.7':
     dependencies:
       regenerator-runtime: 0.14.1
@@ -9634,31 +9695,31 @@ snapshots:
   '@cloudflare/workerd-darwin-64@1.20250129.0':
     optional: true
 
-  '@cloudflare/workerd-darwin-64@1.20250214.0':
+  '@cloudflare/workerd-darwin-64@1.20250310.0':
     optional: true
 
   '@cloudflare/workerd-darwin-arm64@1.20250129.0':
     optional: true
 
-  '@cloudflare/workerd-darwin-arm64@1.20250214.0':
+  '@cloudflare/workerd-darwin-arm64@1.20250310.0':
     optional: true
 
   '@cloudflare/workerd-linux-64@1.20250129.0':
     optional: true
 
-  '@cloudflare/workerd-linux-64@1.20250214.0':
+  '@cloudflare/workerd-linux-64@1.20250310.0':
     optional: true
 
   '@cloudflare/workerd-linux-arm64@1.20250129.0':
     optional: true
 
-  '@cloudflare/workerd-linux-arm64@1.20250214.0':
+  '@cloudflare/workerd-linux-arm64@1.20250310.0':
     optional: true
 
   '@cloudflare/workerd-windows-64@1.20250129.0':
     optional: true
 
-  '@cloudflare/workerd-windows-64@1.20250214.0':
+  '@cloudflare/workerd-windows-64@1.20250310.0':
     optional: true
 
   '@cloudflare/workers-types@4.20250224.0': {}
@@ -10245,9 +10306,9 @@ snapshots:
       '@whatwg-node/disposablestack': 0.0.5
       graphql: 16.10.0
       graphql-ws: 5.16.2(graphql@16.10.0)
-      isomorphic-ws: 5.0.0(ws@8.18.0)
+      isomorphic-ws: 5.0.0(ws@8.18.1)
       tslib: 2.8.1
-      ws: 8.18.0
+      ws: 8.18.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -10304,9 +10365,9 @@ snapshots:
       '@graphql-tools/utils': 10.8.3(graphql@16.10.0)
       '@types/ws': 8.5.13
       graphql: 16.10.0
-      isomorphic-ws: 5.0.0(ws@8.18.0)
+      isomorphic-ws: 5.0.0(ws@8.18.1)
       tslib: 2.8.1
-      ws: 8.18.0
+      ws: 8.18.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -10462,7 +10523,7 @@ snapshots:
   '@graphql-tools/optimize@2.0.0(graphql@16.10.0)':
     dependencies:
       graphql: 16.10.0
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   '@graphql-tools/prisma-loader@8.0.17(@types/node@22.13.5)(encoding@0.1.13)(graphql@16.10.0)':
     dependencies:
@@ -10497,7 +10558,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.1(@babel/core@7.26.9)(encoding@0.1.13)(graphql@16.10.0)
       '@graphql-tools/utils': 10.8.3(graphql@16.10.0)
       graphql: 16.10.0
-      tslib: 2.8.1
+      tslib: 2.6.3
     transitivePeerDependencies:
       - '@babel/core'
       - encoding
@@ -11390,6 +11451,10 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
+  '@shopify/admin-api-client@1.0.6':
+    dependencies:
+      '@shopify/graphql-client': 1.3.0
+
   '@shopify/babel-preset@25.0.0':
     dependencies:
       '@babel/core': 7.26.0
@@ -11455,6 +11520,8 @@ snapshots:
       globby: 11.1.0
       typescript: 5.7.3
 
+  '@shopify/graphql-client@1.3.0': {}
+
   '@shopify/graphql-codegen@0.1.0(@babel/core@7.26.9)(encoding@0.1.13)(graphql@16.10.0)':
     dependencies:
       '@graphql-codegen/add': 5.0.3(graphql@16.10.0)
@@ -11499,6 +11566,35 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-is: 18.3.1
       react-reconciler: 0.28.0(react@18.3.1)
+
+  '@shopify/shopify-api@11.10.0(encoding@0.1.13)':
+    dependencies:
+      '@shopify/admin-api-client': 1.0.6
+      '@shopify/graphql-client': 1.3.0
+      '@shopify/network': 3.3.0
+      '@shopify/storefront-api-client': 1.0.5
+      compare-versions: 6.1.1
+      isbot: 5.1.23
+      jose: 5.10.0
+      jsonwebtoken: 9.0.2
+      node-fetch: 2.7.0(encoding@0.1.13)
+      tslib: 2.8.1
+      uuid: 11.1.0
+    transitivePeerDependencies:
+      - encoding
+
+  '@shopify/shopify-app-session-storage-memory@4.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))(@shopify/shopify-app-session-storage@3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13)))':
+    dependencies:
+      '@shopify/shopify-api': 11.10.0(encoding@0.1.13)
+      '@shopify/shopify-app-session-storage': 3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))
+
+  '@shopify/shopify-app-session-storage@3.0.14(@shopify/shopify-api@11.10.0(encoding@0.1.13))':
+    dependencies:
+      '@shopify/shopify-api': 11.10.0(encoding@0.1.13)
+
+  '@shopify/storefront-api-client@1.0.5':
+    dependencies:
+      '@shopify/graphql-client': 1.3.0
 
   '@shopify/typescript-configs@5.1.0': {}
 
@@ -11842,7 +11938,7 @@ snapshots:
   '@testing-library/dom@10.4.0':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@babel/runtime': 7.26.9
+      '@babel/runtime': 7.26.10
       '@types/aria-query': 5.0.4
       aria-query: 5.3.0
       chalk: 4.1.2
@@ -12272,20 +12368,22 @@ snapshots:
 
   acorn-globals@7.0.1:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
       acorn-walk: 8.3.4
 
-  acorn-jsx@5.3.2(acorn@8.14.0):
+  acorn-jsx@5.3.2(acorn@8.14.1):
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
 
   acorn-walk@8.3.2: {}
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
 
   acorn@8.14.0: {}
+
+  acorn@8.14.1: {}
 
   agent-base@6.0.2:
     dependencies:
@@ -13597,8 +13695,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.14.0
-      acorn-jsx: 5.3.2(acorn@8.14.0)
+      acorn: 8.14.1
+      acorn-jsx: 5.3.2(acorn@8.14.1)
       eslint-visitor-keys: 3.4.3
 
   esprima@4.0.1: {}
@@ -14013,7 +14111,7 @@ snapshots:
   graphql-tag@2.12.6(graphql@16.10.0):
     dependencies:
       graphql: 16.10.0
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   graphql-ws@5.16.2(graphql@16.10.0):
     dependencies:
@@ -14288,7 +14386,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   is-map@2.0.3: {}
 
@@ -14361,7 +14459,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   is-weakmap@2.0.2: {}
 
@@ -14379,6 +14477,8 @@ snapshots:
   isarray@2.0.5: {}
 
   isbot@5.1.21: {}
+
+  isbot@5.1.23: {}
 
   isexe@2.0.0: {}
 
@@ -15050,11 +15150,11 @@ snapshots:
 
   lower-case-first@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   lru-cache@11.0.2: {}
 
@@ -15162,7 +15262,7 @@ snapshots:
   miniflare@3.20250129.0:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      acorn: 8.14.0
+      acorn: 8.14.1
       acorn-walk: 8.3.4
       exit-hook: 2.2.1
       glob-to-regexp: 0.4.1
@@ -15176,7 +15276,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  miniflare@3.20250214.1:
+  miniflare@4.20250310.0:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       acorn: 8.14.0
@@ -15185,7 +15285,7 @@ snapshots:
       glob-to-regexp: 0.4.1
       stoppable: 1.1.0
       undici: 5.28.5
-      workerd: 1.20250214.0
+      workerd: 1.20250310.0
       ws: 8.18.0
       youch: 3.2.3
       zod: 3.22.3
@@ -15259,7 +15359,7 @@ snapshots:
 
   mlly@1.7.4:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
       pathe: 2.0.2
       pkg-types: 1.3.1
       ufo: 1.5.4
@@ -16303,7 +16403,7 @@ snapshots:
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   sprintf-js@1.0.3: {}
 
@@ -16478,7 +16578,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   symbol-tree@3.2.4: {}
 
@@ -16524,7 +16624,7 @@ snapshots:
   terser@5.37.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.14.0
+      acorn: 8.14.1
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -16544,7 +16644,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   tmp@0.0.33:
     dependencies:
@@ -16792,11 +16892,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.6.3
 
   uri-js@4.4.1:
     dependencies:
@@ -16824,6 +16924,8 @@ snapshots:
   utils-merge@1.0.1: {}
 
   uuid@11.0.5: {}
+
+  uuid@11.1.0: {}
 
   uuid@9.0.1: {}
 
@@ -16951,13 +17053,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250129.0
       '@cloudflare/workerd-windows-64': 1.20250129.0
 
-  workerd@1.20250214.0:
+  workerd@1.20250310.0:
     optionalDependencies:
-      '@cloudflare/workerd-darwin-64': 1.20250214.0
-      '@cloudflare/workerd-darwin-arm64': 1.20250214.0
-      '@cloudflare/workerd-linux-64': 1.20250214.0
-      '@cloudflare/workerd-linux-arm64': 1.20250214.0
-      '@cloudflare/workerd-windows-64': 1.20250214.0
+      '@cloudflare/workerd-darwin-64': 1.20250310.0
+      '@cloudflare/workerd-darwin-arm64': 1.20250310.0
+      '@cloudflare/workerd-linux-64': 1.20250310.0
+      '@cloudflare/workerd-linux-arm64': 1.20250310.0
+      '@cloudflare/workerd-windows-64': 1.20250310.0
 
   wrangler@3.107.3(@cloudflare/workers-types@4.20250224.0):
     dependencies:
